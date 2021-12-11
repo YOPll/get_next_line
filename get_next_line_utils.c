@@ -27,8 +27,8 @@ size_t	ft_strlen(const char *str)
 char	*ft_strdup(const char *str)
 {
 	unsigned int	i;
-	size_t		len;
-	char		*save;
+	size_t			len;
+	char			*save;
 
 	i = 0;
 	len = ft_strlen(str);

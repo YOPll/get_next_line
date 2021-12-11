@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yopi <mrx.ga10@gmail.com>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 03:01:39 by yopi              #+#    #+#             */
-/*   Updated: 2021/12/08 22:30:17 by yopi             ###   ########.fr       */
+/*   Updated: 2021/12/11 23:54:57 by yopi             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *str)
 {
@@ -27,8 +27,8 @@ size_t	ft_strlen(const char *str)
 char	*ft_strdup(const char *str)
 {
 	unsigned int	i;
-	size_t		len;
-	char		*save;
+	size_t			len;
+	char			*save;
 
 	i = 0;
 	len = ft_strlen(str);
